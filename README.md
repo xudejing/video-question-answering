@@ -2,7 +2,7 @@
 This is the implementation of our paper "Video Question Answering via Gradually Refined Attention over Appearance and Motion". 
 
 ## Datasets
-For our experiments, we create two VideoQA datasets named [**MSVD-QA**](https://mega.nz/#!QmxFwBTK!Cs7cByu_Qo42XJOsv0DjiEDMiEm8m69h60caDYnT_PQ) and [**MSRVTT-QA**](https://mega.nz/#!UnRnyb7A!es4XmqsLxl-B7MP0KAat9VibkH7J_qpKj9NcxLh8aHg). Both datasets are based on existing video description datasets. The QA pairs are generated from descriptions using this [tool](http://www.cs.cmu.edu/~ark/mheilman/questions) with additional processing steps. The corresponding videos can be found in base datasets which are [MSVD](http://www.cs.utexas.edu/users/ml/clamp/videoDescription) and [MSR-VTT](http://ms-multimedia-challenge.com/2016/dataset). The followings are some examples from the datasets.
+For our experiments, we create two VideoQA datasets named [**MSVD-QA**](https://mega.nz/#!QmxFwBTK!Cs7cByu_Qo42XJOsv0DjiEDMiEm8m69h60caDYnT_PQ) and [**MSRVTT-QA**](https://mega.nz/#!UnRnyb7A!es4XmqsLxl-B7MP0KAat9VibkH7J_qpKj9NcxLh8aHg). Both datasets are based on existing video description datasets. The QA pairs are generated from descriptions using this [tool](http://www.cs.cmu.edu/~ark/mheilman/questions) with additional processing steps. The corresponding videos can be found in base datasets which are [MSVD](http://www.cs.utexas.edu/users/ml/clamp/videoDescription) and [MSR-VTT](http://ms-multimedia-challenge.com/2016/dataset). For MSVD-QA, [youtube_mapping.txt](https://mega.nz/#!QrowUADZ!oFfW_M5wAFsfuFDEJAIa2BeFVHYO0vxit3CMkHFOSfw) may be needed to build the mapping of video names. The followings are some examples from the datasets.
 
 ![MSVD-QA](https://i.imgur.com/KtoT1BZ.png)
 ![MSRVTT-QA](https://i.imgur.com/gf1ayne.png)
